@@ -1,0 +1,24 @@
+{
+    "name": "videoapicloud/videoapicloud",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "VideoAPI.cloud Serverless video transcoding",
+    "keywords": ["video", "encoding", "transcoding", "web service", "h264", "cloud"],
+    "homepage": "http://videoapi.cloud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chrysostomos Nanakos",
+            "email": "cnanakos@videoapi.cloud",
+            "homepage": "http://videoapi.cloud"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Videoapicloud\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    }
+}
